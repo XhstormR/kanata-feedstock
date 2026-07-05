@@ -1,5 +1,5 @@
 context:
-  version: "1.11.0"
+  version: "1.12.0"
 
 package:
   name: kanata
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/jtroo/kanata/archive/v${{ version }}.tar.gz
-  sha256: 42e71c76202ab1d39a4898851558deca277fc3619f11a7dcf0e376c5ffc287bb
+  sha256: 7081073d1d22fe4e404cf8e7d1dfa3f72562fb2d96538367c07f64877dcbf87a
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
